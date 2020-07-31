@@ -1,0 +1,2 @@
+Codigo    Descripcion         Existencias
+213       sdadsa0             2         

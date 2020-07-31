@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="altasBajas">
+		<size>898,572</size>
+		<bg>#EF0C61</bg>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxButton" name="ID_BUTTON1" variable="buttonA" member="yes">
+			<label>Allta</label>
+			<pos>712,168</pos>
+			<size>152,56</size>
+			<handler function="OnbuttonAClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="buttonC" member="yes">
+			<label>Clear</label>
+			<pos>712,344</pos>
+			<size>152,56</size>
+			<handler function="OnbuttonCClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Código</label>
+			<pos>32,40</pos>
+			<font>
+				<size>24</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Descripción</label>
+			<pos>32,104</pos>
+			<font>
+				<size>22</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Existencias</label>
+			<pos>32,168</pos>
+			<font>
+				<size>22</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>Stock mínimo</label>
+			<pos>32,232</pos>
+			<font>
+				<size>22</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>Stock máximo</label>
+			<pos>32,296</pos>
+			<font>
+				<size>22</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+			<label>Precio reposición</label>
+			<pos>32,360</pos>
+			<font>
+				<size>22</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>384,56</pos>
+			<size>264,26</size>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<pos>384,112</pos>
+			<size>268,26</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+			<pos>384,176</pos>
+			<size>260,26</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+			<pos>384,248</pos>
+			<size>260,26</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="TextCtrl5" member="yes">
+			<pos>384,312</pos>
+			<size>260,26</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL6" variable="TextCtrl6" member="yes">
+			<pos>384,376</pos>
+			<size>260,26</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+			<label></label>
+			<pos>72,464</pos>
+			<fg>#17DBDB</fg>
+			<bg>#C01060</bg>
+			<font>
+				<size>24</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial Narrow</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_BUTTON3" variable="buttonB" member="yes">
+			<label>Baja</label>
+			<pos>712,256</pos>
+			<size>152,56</size>
+			<handler function="OnbuttonBClick" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="prueba2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/prueba2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/wxWidgets-3.0.4/lib/gcc_lib/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.0.4/lib/gcc_lib/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libwxmsw30u_richtext.a" />
+					<Add library="libwxmsw30u_xrc.a" />
+					<Add library="libwxmsw30u_aui.a" />
+					<Add library="libwxmsw30u_media.a" />
+					<Add library="libwxbase30u_net.a" />
+					<Add library="libwxmsw30u_gl.a" />
+					<Add library="libwxbase30u_xml.a" />
+					<Add library="libwxmsw30u_adv.a" />
+					<Add library="libwxmsw30u_html.a" />
+					<Add library="libwxmsw30u_core.a" />
+					<Add library="libwxbase30u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxjpeg.a" />
+					<Add library="libwxtiff.a" />
+					<Add library="libwxzlib.a" />
+					<Add library="libwxregexu.a" />
+					<Add library="libwxexpat.a" />
+					<Add directory="C:/wxWidgets-3.0.4/lib/gcc_lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/prueba2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/wxWidgets-3.0.4/lib/gcc_lib/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.0.4/lib/gcc_lib/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw30u_richtext.a" />
+					<Add library="libwxmsw30u_xrc.a" />
+					<Add library="libwxmsw30u_aui.a" />
+					<Add library="libwxmsw30u_media.a" />
+					<Add library="libwxbase30u_net.a" />
+					<Add library="libwxmsw30u_gl.a" />
+					<Add library="libwxbase30u_xml.a" />
+					<Add library="libwxmsw30u_adv.a" />
+					<Add library="libwxmsw30u_html.a" />
+					<Add library="libwxmsw30u_core.a" />
+					<Add library="libwxbase30u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxjpeg.a" />
+					<Add library="libwxtiff.a" />
+					<Add library="libwxzlib.a" />
+					<Add library="libwxregexu.a" />
+					<Add library="libwxexpat.a" />
+					<Add directory="C:/wxWidgets-3.0.4/lib/gcc_lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add option="-Wall" />
+			<Add directory="C:/wxWidgets-3.0.4/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/wxWidgets-3.0.4/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libshell32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libodbc32.a" />
+		</Linker>
+		<Unit filename="Articulo.h" />
+		<Unit filename="Listados.cpp" />
+		<Unit filename="Listados.h" />
+		<Unit filename="Modificaciones.cpp" />
+		<Unit filename="Modificaciones.h" />
+		<Unit filename="altasBajas.cpp" />
+		<Unit filename="altasBajas.h" />
+		<Unit filename="funciones.cpp" />
+		<Unit filename="prueba2App.cpp" />
+		<Unit filename="prueba2App.h" />
+		<Unit filename="prueba2Main.cpp" />
+		<Unit filename="prueba2Main.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="ventasCompras.cpp" />
+		<Unit filename="ventasCompras.h" />
+		<Unit filename="wxsmith/Listados.wxs" />
+		<Unit filename="wxsmith/Modificaciones.wxs" />
+		<Unit filename="wxsmith/altasBajas.wxs" />
+		<Unit filename="wxsmith/prueba2frame.wxs" />
+		<Unit filename="wxsmith/ventasCompras.wxs" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="prueba2App.cpp" main="prueba2Frame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/prueba2frame.wxs" src="prueba2Main.cpp" hdr="prueba2Main.h" fwddecl="0" i18n="1" name="prueba2Frame" language="CPP" />
+					<wxFrame wxs="wxsmith/altasBajas.wxs" src="altasBajas.cpp" hdr="altasBajas.h" fwddecl="0" i18n="1" name="altasBajas" language="CPP" />
+					<wxFrame wxs="wxsmith/Modificaciones.wxs" src="Modificaciones.cpp" hdr="Modificaciones.h" fwddecl="0" i18n="1" name="Modificaciones" language="CPP" />
+					<wxFrame wxs="wxsmith/Listados.wxs" src="Listados.cpp" hdr="Listados.h" fwddecl="0" i18n="1" name="Listados" language="CPP" />
+					<wxFrame wxs="wxsmith/ventasCompras.wxs" src="ventasCompras.cpp" hdr="ventasCompras.h" fwddecl="0" i18n="1" name="ventasCompras" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

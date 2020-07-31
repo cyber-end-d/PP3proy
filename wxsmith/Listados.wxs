@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="Listados">
+		<size>892,543</size>
+		<bg>#3ED26A</bg>
+		<id_arg>0</id_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label></label>
+			<pos>40,432</pos>
+			<fg>#9F9FFF</fg>
+			<bg>#20830E</bg>
+			<font>
+				<size>28</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial Narrow</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="buttonE" member="yes">
+			<label>Existencias</label>
+			<pos>344,136</pos>
+			<size>160,56</size>
+			<handler function="OnbuttonEClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Crear listado</label>
+			<pos>24,24</pos>
+			<font>
+				<size>36</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face></face>
+			</font>
+		</object>
+	</object>
+</wxsmith>
